@@ -41,7 +41,8 @@ The instructions for this Challenge are divided into the following subsections:
 
            0       1.00      0.99      1.00     18765
            1       0.85      0.91      0.88       619
-           
+<br>
+
 * Machine Learning Model 2:
 <br>
 
@@ -49,7 +50,7 @@ The instructions for this Challenge are divided into the following subsections:
 
            0       1.00      0.99      1.00     18765
            1       0.84      0.99      0.91       619
-
+<br>
 With regard to Model 1 and 2: The logistic regression model using the original data does a amazing job of predicting the values for the healthy loans(0). The precision for the 1 class is 1.00 , meaning the model correctly made the positive prediction every time. The recall, which is the number of times the model correctly predicted a healthy transaction, is also great with 0.99 on predicting healthy loans. However, the model did not perform well on predicting the values for the high-risk loans(1). The precision rate was only 0.85 and 0.84 for model 1 and 2. The recall was only 0.91 in model 1, but improved largely in model 2. Overall, the logistic regression model generated pretty impressive numbers for the model predictions.
 
 #### Summary
